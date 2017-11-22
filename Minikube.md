@@ -20,7 +20,7 @@ Ex:
 
 	docker login -u <username>
 	docker tag uaa tronghuynhhb/sandent:uaa
-		tronghuynhhb/sandent: my repository
+		tronghuynhhb/sandent:uaa <=> username/repository:tag
 		uaa: tag name
 	docker push tronghuynhhb/sandent:uaa : push project to repository docker.
 	docker run -p 4000:80 tronghuynhhb/sandent:uaa
