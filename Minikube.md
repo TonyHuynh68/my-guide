@@ -13,8 +13,9 @@ Run Minikube: https://github.com/kubernetes/minikube
 
 	minikube start
 		
-# Deploy project to docker: https://docs.docker.com/get-started/part2/#run-the-app
-See "Tag the image".
+# Deploy project to docker
+See "Tag the image": https://docs.docker.com/get-started/part2/#run-the-app
+
 Ex:
 
 	docker login -u <username>
