@@ -1,6 +1,7 @@
 # Install Minikube in Windows use cmd/power shell (Administrator permission)
 Install Choco: https://chocolatey.org/packages/chocolatey
 
+	Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 	choco install chocolatey
 	choco upgrade chocolatey
 	
